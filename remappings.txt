@@ -7,3 +7,4 @@ solmate/=lib/solmate/src/
 @openzeppelin/contracts/=lib/openzeppelin/openzeppelin-contracts/contracts/
 lib/forge-std:ds-test/=lib/forge-std/lib/ds-test/src/
 lib/solmate:ds-test/=lib/solmate/lib/ds-test/src/
+registry/=lib/registry/

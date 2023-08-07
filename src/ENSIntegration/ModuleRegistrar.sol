@@ -28,7 +28,7 @@ contract ModuleRegistrar {
      * @param label The hash of the label to register.
      * @param owner The address of the new owner.
      */
-    function register(bytes32 label, address owner) public{
+    function _registerENS(bytes32 label, address owner) public {
         require(expiryTimes[label] < block.timestamp);
 
         expiryTimes[label] = block.timestamp + registrationPeriod;
